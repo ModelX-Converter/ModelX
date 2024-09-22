@@ -1,0 +1,27 @@
+Start convert ./test.py --> ./test\test.py
+[test.py:47] remove 'import torch'
+[test.py:49] [Start] convert pytorch to paddlepaddle for torch.nn.PoissonNLLLoss.
+torch module: torch.nn.PoissonNLLLoss approximately matches to paddle module: paddle.nn.PoissonNLLLoss. Please check.
+[test.py:49] [Success]convert torch.nn.PoissonNLLLoss to Paddle 
+[test.py] add 'import paddle' in first line
+[test.py] insert extra 1 lines
+Finish convert ./test.py --> ./test\test.py
+
+
+===========================================
+Not Support API List:
+===========================================
+These APIs are not supported to be converted !
+
+
+===========================================
+Convert Summary:
+===========================================
+Total APIs in source library: 2
+
+APIs successfully converted: 2
+
+APIs failed to convert: 0
+
+Success rate: 100.00%
+out_dir :./test

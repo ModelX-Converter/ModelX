@@ -1,0 +1,107 @@
+Start convert ./test.py --> ./test\test.py
+[test.py:4] remove 'import torch'
+[test.py:5] remove 'import torch.nn as nn'
+torch module: torch.nn approximately matches to paddle module: paddle.nn. Please check.
+[test.py:14] [Start] convert pytorch to paddlepaddle for features
+[test.py:29] [Start] convert pytorch to paddlepaddle for avgpool
+[test.py:30] [Start] convert pytorch to paddlepaddle for classifier
+[test.py:10] [Start] convert pytorch to paddlepaddle for torch.nn.Module
+[test.py:10] [Success] convert torch.nn.Module to paddlepaddle Successfully
+[test.py:15] [Start] convert pytorch to paddlepaddle for torch.nn.Conv2d.
+torch module: torch.nn.Conv2d approximately matches to paddle module: paddle.nn.Conv2D. Please check.
+[test.py:15] [Success]convert torch.nn.Conv2d to Paddle 
+[test.py:16] [Start] convert pytorch to paddlepaddle for torch.nn.ReLU.
+torch module: torch.nn.ReLU approximately matches to paddle module: paddle.nn.ReLU. Please check.
+[test.py:16] [Success]convert torch.nn.ReLU to Paddle 
+[test.py:17] [Start] convert pytorch to paddlepaddle for torch.nn.MaxPool2d.
+torch module: torch.nn.MaxPool2d approximately matches to paddle module: paddle.nn.MaxPool2D. Please check.
+[test.py:17] [Success]convert torch.nn.MaxPool2d to Paddle 
+[test.py:18] [Start] convert pytorch to paddlepaddle for torch.nn.Conv2d.
+torch module: torch.nn.Conv2d approximately matches to paddle module: paddle.nn.Conv2D. Please check.
+[test.py:18] [Success]convert torch.nn.Conv2d to Paddle 
+[test.py:19] [Start] convert pytorch to paddlepaddle for torch.nn.ReLU.
+torch module: torch.nn.ReLU approximately matches to paddle module: paddle.nn.ReLU. Please check.
+[test.py:19] [Success]convert torch.nn.ReLU to Paddle 
+[test.py:20] [Start] convert pytorch to paddlepaddle for torch.nn.MaxPool2d.
+torch module: torch.nn.MaxPool2d approximately matches to paddle module: paddle.nn.MaxPool2D. Please check.
+[test.py:20] [Success]convert torch.nn.MaxPool2d to Paddle 
+[test.py:21] [Start] convert pytorch to paddlepaddle for torch.nn.Conv2d.
+torch module: torch.nn.Conv2d approximately matches to paddle module: paddle.nn.Conv2D. Please check.
+[test.py:21] [Success]convert torch.nn.Conv2d to Paddle 
+[test.py:22] [Start] convert pytorch to paddlepaddle for torch.nn.ReLU.
+torch module: torch.nn.ReLU approximately matches to paddle module: paddle.nn.ReLU. Please check.
+[test.py:22] [Success]convert torch.nn.ReLU to Paddle 
+[test.py:23] [Start] convert pytorch to paddlepaddle for torch.nn.Conv2d.
+torch module: torch.nn.Conv2d approximately matches to paddle module: paddle.nn.Conv2D. Please check.
+[test.py:23] [Success]convert torch.nn.Conv2d to Paddle 
+[test.py:24] [Start] convert pytorch to paddlepaddle for torch.nn.ReLU.
+torch module: torch.nn.ReLU approximately matches to paddle module: paddle.nn.ReLU. Please check.
+[test.py:24] [Success]convert torch.nn.ReLU to Paddle 
+[test.py:25] [Start] convert pytorch to paddlepaddle for torch.nn.Conv2d.
+torch module: torch.nn.Conv2d approximately matches to paddle module: paddle.nn.Conv2D. Please check.
+[test.py:25] [Success]convert torch.nn.Conv2d to Paddle 
+[test.py:26] [Start] convert pytorch to paddlepaddle for torch.nn.ReLU.
+torch module: torch.nn.ReLU approximately matches to paddle module: paddle.nn.ReLU. Please check.
+[test.py:26] [Success]convert torch.nn.ReLU to Paddle 
+[test.py:27] [Start] convert pytorch to paddlepaddle for torch.nn.MaxPool2d.
+torch module: torch.nn.MaxPool2d approximately matches to paddle module: paddle.nn.MaxPool2D. Please check.
+[test.py:27] [Success]convert torch.nn.MaxPool2d to Paddle 
+[test.py:14] [Start] convert pytorch to paddlepaddle for torch.nn.Sequential.
+[test.py:14] [Success]convert torch.nn.Sequential to Paddle 
+[test.py:29] [Start] convert pytorch to paddlepaddle for torch.nn.AdaptiveAvgPool2d.
+torch module: torch.nn.AdaptiveAvgPool2d approximately matches to paddle module: paddle.nn.AdaptiveAvgPool2D. Please check.
+[test.py:29] [Success]convert torch.nn.AdaptiveAvgPool2d to Paddle 
+[test.py:31] [Start] convert pytorch to paddlepaddle for torch.nn.Dropout.
+torch module: torch.nn.Dropout approximately matches to paddle module: paddle.nn.Dropout. Please check.
+[test.py:31] [Success]convert torch.nn.Dropout to Paddle 
+[test.py:32] [Start] convert pytorch to paddlepaddle for torch.nn.Linear.
+torch module: torch.nn.Linear approximately matches to paddle module: paddle.nn.Linear. Please check.
+[test.py:32] [Success]convert torch.nn.Linear to Paddle 
+[test.py:33] [Start] convert pytorch to paddlepaddle for torch.nn.ReLU.
+torch module: torch.nn.ReLU approximately matches to paddle module: paddle.nn.ReLU. Please check.
+[test.py:33] [Success]convert torch.nn.ReLU to Paddle 
+[test.py:34] [Start] convert pytorch to paddlepaddle for torch.nn.Dropout.
+torch module: torch.nn.Dropout approximately matches to paddle module: paddle.nn.Dropout. Please check.
+[test.py:34] [Success]convert torch.nn.Dropout to Paddle 
+[test.py:35] [Start] convert pytorch to paddlepaddle for torch.nn.Linear.
+torch module: torch.nn.Linear approximately matches to paddle module: paddle.nn.Linear. Please check.
+[test.py:35] [Success]convert torch.nn.Linear to Paddle 
+[test.py:36] [Start] convert pytorch to paddlepaddle for torch.nn.ReLU.
+torch module: torch.nn.ReLU approximately matches to paddle module: paddle.nn.ReLU. Please check.
+[test.py:36] [Success]convert torch.nn.ReLU to Paddle 
+[test.py:37] [Start] convert pytorch to paddlepaddle for torch.nn.Linear.
+torch module: torch.nn.Linear approximately matches to paddle module: paddle.nn.Linear. Please check.
+[test.py:37] [Success]convert torch.nn.Linear to Paddle 
+[test.py:30] [Start] convert pytorch to paddlepaddle for torch.nn.Sequential.
+[test.py:30] [Success]convert torch.nn.Sequential to Paddle 
+[test.py:40] [Start] convert pytorch to paddlepaddle for torch.Tensor
+torch module: torch.Tensor approximately matches to paddle module: paddle.Tensor. Please check.
+[test.py:40] [Success] convert torch.Tensor to paddlepaddle Successfully
+[test.py:43] [Start] convert pytorch to paddlepaddle for torch.flatten.
+torch module: torch.flatten approximately matches to paddle module: paddle.flatten. Please check.
+[test.py:43] [Success]convert torch.flatten to Paddle 
+[test.py:40] [Start] convert pytorch to paddlepaddle for torch.Tensor
+torch module: torch.Tensor approximately matches to paddle module: paddle.Tensor. Please check.
+[test.py:40] [Success] convert torch.Tensor to paddlepaddle Successfully
+[test.py] add 'import paddle' in first line
+[test.py] insert extra 1 lines
+Finish convert ./test.py --> ./test\test.py
+
+
+===========================================
+Not Support API List:
+===========================================
+These APIs are not supported to be converted !
+
+
+===========================================
+Convert Summary:
+===========================================
+Total APIs in source library: 29
+
+APIs successfully converted: 29
+
+APIs failed to convert: 0
+
+Success rate: 100.00%
+out_dir :./test

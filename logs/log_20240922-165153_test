@@ -1,0 +1,3 @@
+Start convert ./test.py --> ./test\test.py
+[test.py:47] remove 'import torch'
+[test.py:49] [Start] convert pytorch to paddlepaddle for torch.nn.PoissonNLLLoss.
